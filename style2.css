@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav {
+    min-height:40px;
+    background-color: #037059;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    width: 900px;
+}
+.menu {
+    display: flex;
+    flex-flow: row;
+    color: white;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: space-around;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-family: 'McLaren', cursive;
+    background-color: #029c7d;
+    background-color: #029c7d;
+}
+
+.name{
+    display: block;
+    margin-right: auto;
+}
+
+.menu li{
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+/* добавив стиль для колонки */
+.column {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+}
+
+.main-wrapper {
+  display: flex;
+}
+
+.div1{
+    background-color: blue;
+    width: 900px;
+    height: 400px;
+}
+
+.div2{
+    background-color: white;
+    height: 400px;
+}
+
+   

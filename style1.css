@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav {
+    min-height:40px;
+    background-color: #037059;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+}
+.menu {
+    display: flex;
+    flex-flow: row;
+    color: white;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: space-around;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-family: 'McLaren', cursive;
+    background-color: #029c7d;
+    background-color: #029c7d;
+}
+
+.name{
+    display: block;
+    margin-right: auto;
+}
+
+.menu li{
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+/* добавив стиль для колонки */
+.column {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+}
+
+.main-wrapper {
+  display: flex;
+}
+
+.div1{
+    background-color: blue;
+    width: 900px;
+    height: 400px;
+}
+
+.div2{
+    background-color: white;
+    height: 400px;
+    padding-bottom: 0px;
+}
+footer{
+    background-color:#037059;
+    color: black;
+    text-align: center;
+    margin-top: 35px;
+    font-weight: 600;
+    padding: 10px;
+    list-style-type: none;
+    padding-top: 0px;
+   }
+
+   ol{
+       list-style-type: none;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       justify-content: space-around;
+       padding: 15px;
+       margin: 0 auto;
+       width: 150px;
+   }
+
+   .tab{
+    text-decoration: none;
+    color: #279AF1;
+    transition: all .3s;
+}
+
+.tab:hover {
+	transform: scale(1.2);
+}
+
+   
+   .tab{
+    height: 35px;
+    border-radius: 50%;
+   }
+      
+   .tab1{
+    height: 35px;
+    border-radius: 50%;
+   }
+      
+   .tab2{
+    height: 35px;
+    border-radius: 50%;
+   }
+   
+   .tab1{
+    text-decoration: none;
+    color: #279AF1;
+    transition: all .3s;
+}
+
+.tab1:hover {
+	transform: scale(1.2);
+}
+
+.tab2{
+    text-decoration: none;
+    color: #279AF1;
+    transition: all .3s;
+}
+
+.tab2:hover {
+	transform: scale(1.2);
+}
+
+.div3 {
+    height: 600px;
+    padding-bottom: 0px;
+}
+
