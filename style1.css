@@ -2,13 +2,26 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
+
+.yura{
+    font-family: 'McLaren', cursive;
+}
 .nav {
     min-height:40px;
     background-color: #037059;
     text-align: center;
     padding: 10px;
     font-weight: 600;
+    font-family: 'McLaren', bold;
 }
+.color {
+    text-decoration: none;
+    color: #0499ff;
+}
+
 .menu {
     display: flex;
     flex-flow: row;
@@ -24,8 +37,8 @@
 body {
     margin:0;
     padding:0;
-    font-family: 'McLaren', cursive;
-    background-color: #029c7d;
+
+
     background-color: #029c7d;
 }
 
@@ -47,6 +60,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 800px;
+  margin: 20px;
 }
 
 .main-wrapper {
@@ -54,21 +68,49 @@ body {
 }
 
 .div1{
-    background-color: blue;
-    width: 900px;
+    background-color: white;
+    width: 800px;
     height: 400px;
+    margin: 30px 30px 30px 30px;
+    border-bottom: 4px solid grey;
+    border-radius: 14px;
+    transition: all .3s;
+    padding: 30px;
+
+}
+
+.div{  
+    background-color: white;
+    display: table;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.div1:hover {
+	transform: scale(1.02);
 }
 
 .div2{
     background-color: white;
     height: 400px;
     padding-bottom: 0px;
+    border-bottom: 4px solid grey;
+    border-radius: 14px;
+    transition: all .3s;
+    padding: 30px;
+    margin: 30px 30px 30px 30px;
+    width: 800px;
 }
+
+.div2:hover {
+	transform: scale(1.02);
+}
+
 footer{
     background-color:#037059;
     color: black;
     text-align: center;
-    margin-top: 35px;
+    margin-top: 0px;
     font-weight: 600;
     padding: 10px;
     list-style-type: none;
@@ -133,7 +175,17 @@ footer{
 }
 
 .div3 {
-    height: 600px;
+    height: 740px;
     padding-bottom: 0px;
+    margin: 50px 50px 30px 10px;
+    background-color: #16c4a1;
+    border-bottom: 4px solid grey;
+    border-radius: 14px;
+    padding: 30px;
+    transition: all .3s;
+}
+
+.div3:hover {
+	transform: scale(1.02);
 }
 

@@ -1,15 +1,66 @@
-* {
+*{
     box-sizing: border-box;
+    margin: 5px;
 }
 
+html {
+    background-color: #029c7d;
+}
+.container{
+    display: flex;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.menu1{
+    width: 30%;
+    height: 878px;
+    background-color:#16c4a1;
+    border-bottom: 4px solid grey;
+    border-radius: 14px;
+    padding: 20px;
+    transition: all .3s;
+}
+
+.menu1:hover {
+	transform: scale(1.03);
+}
+
+.header{
+    height: 70px;
+    width: 100%;
+    background-color: #037059;
+    margin: 0px 5px 5px 5px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    min-height:40px;
+    border-bottom: 4px solid #025745;
+    border-radius: 14px;
+}
 .nav {
     min-height:40px;
     background-color: #037059;
     text-align: center;
     padding: 10px;
     font-weight: 600;
-    width: 900px;
+    font-family: 'Alatsi', sans-serif;
 }
+.name{
+    display: block;
+    margin-right: auto;
+ }
+    
+.menu li{
+    padding: 10px;
+}
+    
+
 .menu {
     display: flex;
     flex-flow: row;
@@ -22,47 +73,41 @@
     padding-right: 40px;
 }
 
-body {
-    margin:0;
-    padding:0;
-    font-family: 'McLaren', cursive;
-    background-color: #029c7d;
-    background-color: #029c7d;
-}
-
-.name{
-    display: block;
-    margin-right: auto;
-}
-
-.menu li{
-    padding: 10px;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-}
-/* добавив стиль для колонки */
-.column {
-  display: flex;
-  flex-direction: column;
-  height: 800px;
-}
-
-.main-wrapper {
-  display: flex;
-}
-
-.div1{
-    background-color: blue;
-    width: 900px;
-    height: 400px;
-}
-
-.div2{
+.left-col{
+    height: 700px;
+    width: 46%;
+ 
+    margin: 10px;
+    padding: 50px;
     background-color: white;
-    height: 400px;
+    border-bottom: 4px solid grey;
+    border-radius: 14px;
+    transition: all .3s;
 }
 
-   
+.left-col:hover {
+	transform: scale(1.03);
+}
+
+.right-col{
+    height: 700px;
+    width: 46%;
+    margin: 10px;
+    padding: 50px;
+    background-color: white;
+    border-bottom: 4px solid grey;
+    border-radius: 14px;
+    transition: all .3s;
+}
+
+.right-col:hover {
+	transform: scale(1.03);
+}
+
+.nav {
+    min-height:40px;
+    background-color: #037059;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+}

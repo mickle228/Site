@@ -20,6 +20,7 @@ a {
     text-align: center;
     padding: 10px;
     font-weight: 600;
+    font-family: 'McLaren', bold;
 }
 .menu {
     display: flex;
@@ -90,12 +91,18 @@ header img:hover {
     margin: 10px;
     padding: 50px;
     background-color: white;
-    border-bottom: 3px solid grey;
-    border-radius: 5px;
+    border-bottom: 4px solid grey;
+    border-radius: 14px;
+    transition: all .3s;
+}
+
+.card:hover {
+	transform: scale(1.03);
 }
 
 .tag-list {
     display: flex;
+    justify-content: center;
     flex-flow: row;
     list-style-type: none;
     color: #fff;
@@ -103,10 +110,14 @@ header img:hover {
 
 .tag-yellow {
     background-color: #ff9900;
+    display: flex;
+    justify-content: center;
 }
 
 .tag-blue {
     background-color: #0399ff;
+    display: flex;
+    justify-content: center;
 }
 
 .nav-link a{
